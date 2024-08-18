@@ -1,8 +1,16 @@
+D:/Programowanie/Godot/flappyexport
+D:/Programowanie/Godot
+res://assets/plane
+res://scenes/scrolling_layer
+res://scenes/scrolling_bg
+res://scenes/gameover
+res://assets
+res://scenes/main
 res://singletons
+res://scenes/hud
 res://scenes/pipes
 res://scenes/laser
 res://scenes/pipe
-res://assets/plane
 res://scenes/barrier
 res://scenes/bird
 res://scenes/game

@@ -1,0 +1,14 @@
+res://assets/lg_red_48.tres::ff08e3a2d4a7c2bb4f4718ba58414eec::1723984538::res://.godot/exported/133200997/export-5c5f34c5bd441b3fdda994636033feb3-lg_red_48.res
+res://assets/lg_red_72.tres::0e5181ad1ffd621c1cd08c94d3cfd19c::1723984538::res://.godot/exported/133200997/export-dbf5639c89f8540f678d213d6e17f98d-lg_red_72.res
+res://assets/lg_white_72.tres::0338653e91d4e0a630fd46ab201fae7d::1723984538::res://.godot/exported/133200997/export-830f473a06f4eed1355c1069fa8eb3f2-lg_white_72.res
+res://scenes/barrier/barrier.tscn::9ef06d6246bc71d38f826a665499724b::1723987419::res://.godot/exported/133200997/export-6b14802c7a9bab90fd15e4fc87161f26-barrier.scn
+res://scenes/bird/bird.tscn::79cb2a111a5d30f3ecd5e676fab76ddf::1723987663::res://.godot/exported/133200997/export-f68ff1fe5082772a6a77ad3d32843aea-bird.scn
+res://scenes/game/game.tscn::ca5ff02fc020b3610bfed4c0499755bb::1723987419::res://.godot/exported/133200997/export-69e963a49695dd4030e5c61a12b8ddfe-game.scn
+res://scenes/gameover/game_over.tscn::517f96d49ea6330c643bb8af49e3948d::1723987419::res://.godot/exported/133200997/export-b16dd8e00b2be4a2dc51d774b019842a-game_over.scn
+res://scenes/hud/hud.tscn::da607ea6aaf3e862ca17dbaa021cd2ed::1723987419::res://.godot/exported/133200997/export-0e52f078d70b944995e2167b24cb4048-hud.scn
+res://scenes/laser/laser.tscn::4d991cdc9ced8a415212a65a554eb51a::1723987419::res://.godot/exported/133200997/export-8528765920d39233f2c3998185101afb-laser.scn
+res://scenes/main/main.tscn::765223c90671383c700b1087cebc628e::1723987419::res://.godot/exported/133200997/export-f39996a6d27a38698d16421ab974097b-main.scn
+res://scenes/pipe/pipe.tscn::ee0a5378d2227a43ce31a5601101111b::1723987419::res://.godot/exported/133200997/export-923164fd699fbfe8ca59b93e668817dc-pipe.scn
+res://scenes/pipes/pipes.tscn::b26f737dc2125ebc38605d10babb98cf::1723987419::res://.godot/exported/133200997/export-80d50b6f17c68443164b464bf5aea194-pipes.scn
+res://scenes/scrolling_bg/scrolling_bg.tscn::f445addc32fdc761a5d5ae84ac1644a0::1723987419::res://.godot/exported/133200997/export-f53404089bfafba994dadb505b509e21-scrolling_bg.scn
+res://scenes/scrolling_layer/scrolling_layer.tscn::4c61bb4ebc2d4014f3bb3328b24ee307::1723987419::res://.godot/exported/133200997/export-1e220f253adda92f32810630d78b9126-scrolling_layer.scn

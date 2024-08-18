@@ -1,16 +1,20 @@
-[gd_scene load_steps=6 format=3 uid="uid://dde6nmfvmt5x3"]
+[gd_scene load_steps=9 format=3 uid="uid://dde6nmfvmt5x3"]
 
 [ext_resource type="Script" path="res://scenes/game/game.gd" id="1_g7p56"]
 [ext_resource type="Texture2D" uid="uid://j6hy7ifjmlpg" path="res://assets/background/rocks_2.png" id="1_l6pe7"]
 [ext_resource type="PackedScene" uid="uid://bb72eh5lfj5e2" path="res://scenes/bird/bird.tscn" id="2_8n3cv"]
 [ext_resource type="PackedScene" uid="uid://xu04hgc6q6gm" path="res://scenes/barrier/barrier.tscn" id="3_3kp00"]
 [ext_resource type="PackedScene" uid="uid://qyk7ek4u5rvn" path="res://scenes/pipes/pipes.tscn" id="4_1d4op"]
+[ext_resource type="PackedScene" uid="uid://c71y4ug032v60" path="res://scenes/hud/hud.tscn" id="6_v4frm"]
+[ext_resource type="PackedScene" uid="uid://csyg14a4vmlg6" path="res://scenes/gameover/game_over.tscn" id="7_dqeht"]
+[ext_resource type="PackedScene" uid="uid://dvasip7lsop8s" path="res://scenes/scrolling_bg/scrolling_bg.tscn" id="8_m3mxw"]
 
 [node name="Game" type="Node2D"]
 script = ExtResource("1_g7p56")
 pipes_scene = ExtResource("4_1d4op")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
 position = Vector2(239, 391)
 texture = ExtResource("1_l6pe7")
 
@@ -30,8 +34,15 @@ position = Vector2(640, 340)
 position = Vector2(640, 540)
 
 [node name="SpawnTimer" type="Timer" parent="."]
-wait_time = 2.0
+wait_time = 2.5
 autostart = true
 
-[connection signal="on_bird_died" from="Bird" to="." method="_on_bird_died"]
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="hud" parent="CanvasLayer" instance=ExtResource("6_v4frm")]
+
+[node name="GameOver" parent="CanvasLayer" instance=ExtResource("7_dqeht")]
+
+[node name="ScrollingBg" parent="." instance=ExtResource("8_m3mxw")]
+
 [connection signal="timeout" from="SpawnTimer" to="." method="_on_spawn_timer_timeout"]
